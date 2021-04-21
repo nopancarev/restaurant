@@ -1,0 +1,98 @@
+:root {
+  --color-wine: #b44347;
+  --color-graphite: #333333;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.clearfix ::after {
+  display: inline;
+  clear: both;
+  content: "";
+}
+
+/*******************
+header
+*******************/
+.header a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.header .logo {
+  color: gray;
+  text-transform: uppercase;
+}
+.header ul {
+  float: right;
+  list-style: none;
+}
+
+.header li {
+  display: inline;
+  padding: 15px;
+}
+
+/******************
+main
+******************/
+.main {
+  background-image: url(wendymiao-chen-y_aFxLIyld4-unsplash.jpg);
+  padding-top: 300px;
+  background-size: cover;
+}
+.tile {
+  background-color: white;
+  padding: 15px;
+  display: inline-block;
+  width: 220px;
+  margin-right: 5px;
+  height: 220px;
+}
+.tile .material-icons {
+  padding: 20px;
+  background-color: var(--color-wine);
+  border-radius: 50%;
+  margin-bottom: 15px;
+  color: white;
+}
+.main footer {
+  background-color: var(--color-wine);
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 100px;
+  margin-top: -60px;
+}
+.main footer a {
+  color: white;
+}
+.main .tile h4 {
+  color: var(--color-wine);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.main .tile p {
+  font-style: italic;
+}
+.click {
+  background-color: var(--color-graphite);
+  text-align: center;
+}
+.click p {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.click footer a {
+  color: #a5c3e3;
+}
