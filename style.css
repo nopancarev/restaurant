@@ -12,15 +12,10 @@
   margin: 0 auto;
 }
 
-.clearfix ::after {
-  display: inline;
-  clear: both;
-  content: "";
-}
-
 /*******************
 header
 *******************/
+
 .header a {
   padding: 20px;
   display: inline-block;
