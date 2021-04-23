@@ -15,24 +15,21 @@
 /*******************
 header
 *******************/
-
-.header a {
+header a {
   padding: 20px;
   display: inline-block;
   text-decoration: none;
   color: black;
 }
-
-.header .logo {
+header .logo {
   color: gray;
   text-transform: uppercase;
 }
-.header ul {
+header ul {
   float: right;
   list-style: none;
 }
-
-.header li {
+header li {
   display: inline;
   padding: 15px;
 }
