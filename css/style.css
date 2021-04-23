@@ -37,7 +37,7 @@ header li {
 /******************
 main
 ******************/
-.main {
+main {
   background-image: url(../img/vine-on-the-table.jpg);
   padding-top: 300px;
   background-size: cover;
@@ -57,7 +57,7 @@ main
   margin-bottom: 15px;
   color: white;
 }
-.main footer {
+main footer {
   background-color: var(--color-wine);
   color: white;
   text-align: center;
@@ -65,15 +65,15 @@ main
   padding-top: 100px;
   margin-top: -60px;
 }
-.main footer a {
+main footer a {
   color: white;
 }
-.main .tile h4 {
+main .tile h4 {
   color: var(--color-wine);
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-.main .tile p {
+main .tile p {
   font-style: italic;
 }
 .click {
