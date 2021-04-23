@@ -76,15 +76,19 @@ main .tile h4 {
 main .tile p {
   font-style: italic;
 }
-.click {
+
+/******************
+footer
+******************/
+footer {
   background-color: var(--color-graphite);
   text-align: center;
 }
-.click p {
+footer p {
   color: white;
   padding-top: 25px;
   padding-bottom: 35px;
 }
-.click footer a {
+footer footer a {
   color: #a5c3e3;
 }
