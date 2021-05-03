@@ -15,24 +15,21 @@
 /*******************
 header
 *******************/
-
-.header a {
+header a {
   padding: 20px;
   display: inline-block;
   text-decoration: none;
   color: black;
 }
-
-.header .logo {
+header .logo {
   color: gray;
   text-transform: uppercase;
 }
-.header ul {
+header ul {
   float: right;
   list-style: none;
 }
-
-.header li {
+header li {
   display: inline;
   padding: 15px;
 }
@@ -40,8 +37,8 @@ header
 /******************
 main
 ******************/
-.main {
-  background-image: url(wendymiao-chen-y_aFxLIyld4-unsplash.jpg);
+main {
+  background-image: url(../img/vine-on-the-table.jpg);
   padding-top: 300px;
   background-size: cover;
 }
@@ -60,7 +57,7 @@ main
   margin-bottom: 15px;
   color: white;
 }
-.main footer {
+main footer {
   background-color: var(--color-wine);
   color: white;
   text-align: center;
@@ -68,26 +65,30 @@ main
   padding-top: 100px;
   margin-top: -60px;
 }
-.main footer a {
+main footer a {
   color: white;
 }
-.main .tile h4 {
+main .tile h4 {
   color: var(--color-wine);
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-.main .tile p {
+main .tile p {
   font-style: italic;
 }
-.click {
+
+/******************
+footer
+******************/
+footer {
   background-color: var(--color-graphite);
   text-align: center;
 }
-.click p {
+footer p {
   color: white;
   padding-top: 25px;
   padding-bottom: 35px;
 }
-.click footer a {
+footer footer a {
   color: #a5c3e3;
 }
